@@ -1,0 +1,411 @@
+body 
+{
+    background-color: #f2f2f2;
+    font-family: Almarai;
+}
+/*  start header */
+.header h1 
+{
+    font-size:50px;
+} 
+.box 
+{
+    font-size: 25px;
+    line-height: 1.6;
+}
+button 
+{
+    float:left;
+    color:#8F8F8F;
+    background-color:#ECECEC;
+    border:none;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 5px;
+    font-weight:bold;
+    margin-left: 3%;
+} 
+@media (max-width:767px){
+    .header h1 
+    {
+        font-size: 36px;
+    } 
+    .box 
+    {
+        font-size: 18px;
+        line-height: 2.4;
+        font-weight: bold;
+    }
+    button 
+    {
+        float: left;
+        color: #8F8F8F;
+        background-color: #ECECEC;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        padding: 5px;
+        font-weight: bold;
+        margin-left: 3%;
+        line-height: 1.65;
+    }
+}
+/*  end header */
+
+/* starT matches */
+.slider{
+    /* max-width: 1155px; */
+    display: flex;
+}
+.slider .card{
+    flex: 1;
+    background: #fff;
+}
+.match-container 
+{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.spacial-span
+{
+    font-size: 22px;
+    line-height: 2.6;
+}
+.time-match 
+{
+    font-size: 20px;
+}
+@media (max-width:767px){
+    .time-match 
+    {
+        font-size: 16px;
+    }
+    .spacial-row 
+    {
+        margin: 0!important;
+    }
+}
+@media only screen 
+    and (max-width : 250px)  {
+    .match-container 
+    {
+        padding-left:0%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 15px;
+        line-height: 4;
+    }
+    .time-match
+    {
+        font-size: 12px;
+    }
+    .players .img span {
+        font-size: 10px !important;
+    }
+    .slider3 {
+        margin-top: 45px !important;
+    }
+}
+@media only screen 
+    and (min-width : 300px) and  (max-width : 325px) {
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 18px;
+        line-height: 3;
+    }
+}
+@media only screen 
+    and (min-width : 200px) and  (max-width : 230px) {
+    .spacial-span
+    {
+        font-size: 14px;
+        line-height: 4;
+    }
+}
+@media only screen 
+    and (min-width : 250px) and  (max-width : 300px) {
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 14px;
+        line-height: 4;
+    }
+}
+@media only screen 
+    and (device-width : 320px) 
+    and (device-height : 568px) {
+
+    .match-container 
+    {
+        padding-left:6%;
+        padding-right:6%;
+    }
+    .spacial-span
+    {
+        font-size: 18px;
+        line-height: 3;
+    }
+}
+@media only screen 
+    and (device-width : 360px) 
+    and (device-height : 640px) {
+    .match-container 
+    {
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .spacial-span
+    {
+        font-size: 18px;
+        line-height: 3;
+    }
+}
+@media only screen 
+    and (device-width : 540px) 
+    and (device-height : 720px) {
+    .match-container 
+    {
+        padding-left:20%;
+        padding-right:20%;
+    }
+}
+@media only screen 
+    and (device-width : 250px) 
+    and (device-height : 626px) {
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span {
+        font-size: 14px;
+        line-height: 4;
+    }
+}
+/* end matches */
+
+/* start players */
+.players .card {
+    border-radius: 20px;
+}
+.players .img img 
+{
+    padding: 15% 15% 5% 15%;
+}
+.players .img div 
+{
+    font-family: Almarai;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .head h2 {
+        font-size: 20px;
+    }
+    .spical-h {
+        margin-right: 6% !important;
+    }
+    .players .card {
+        border-radius: 10px;
+    }
+    .players .img div 
+    {
+        font-family: Almarai;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .players .img img 
+    {
+        padding: 15% 10% 5% 10%;
+    }
+}
+@media only screen 
+    and (device-width : 768px) 
+    and (device-height : 1024px) {
+        
+    .players .img span {
+        margin-right: 18%;
+    }
+}
+@media only screen 
+    and (device-width : 540px) 
+    and (device-height : 720px) {
+        
+    .players .img span {
+        margin-right: 26%;
+    }
+}
+@media only screen 
+    and (device-width : 280px) 
+    and (device-height : 653px) {
+        
+    .players .img span {
+        margin-right: 28% !important;
+    }
+}
+/* end players */
+
+/* Start secrion order */
+.widget 
+{
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px 0 rgb(0 54 87 / 14%);
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.widget_title 
+{
+    background-color:#191f2b;     /* #d63031*/
+    text-shadow: 1px 1px 0 #191f2b; 
+    text-align: center;
+    color: #fff;
+    height: 35px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.table_data 
+{
+    padding: 10px;
+    background-color: #f7f7f7;
+    direction: rtl;
+    text-align: right;
+}
+.table_data .table 
+{
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px 0 rgb(0 54 87 / 14%);
+    margin-bottom: 0;
+}
+.table_data th 
+{
+    text-align: right;
+    color: #000;
+}
+.table_data .name 
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+.red 
+{
+    color: red;
+}
+.green 
+{color: #0ccf0c;
+}
+.orange 
+{
+    color: #ecc700;
+}
+.table_data td 
+{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px){
+    div[class^=col], div[class*=' col'] {
+        padding: 0 5px!important;
+        }
+}
+@media screen and (max-width: 440px){
+    .table_data th {
+    padding: 5px 0!important;
+    font-size: 14px;
+    text-align: center!important;
+    }
+}
+@media screen and (max-width: 440px){
+    .table_data td {
+    padding: 5px 0!important;
+    text-align: center!important;
+    }
+}
+/* End secrion order */
+
+/* start artical */
+.slider .card .img
+{
+    height: 200px;
+    width: 100%;
+}
+.article .slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:10px ;
+}
+.article .slider .card 
+{
+    height: 400px;
+}
+.article .slider .card .img 
+{
+    height: 262px
+}
+.article .card .content{
+    padding: 15px;
+}
+.slider .card .content{
+    padding: 10px 20px;
+}
+.card .content .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1e2022;
+    font-family: clear_sans;
+}
+.article .card .content p{
+    color: #7b7979;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: clear_sans;
+}
+.card .content hr {
+margin-bottom: 30px;
+border-top: 2px solid #e9e9e9;
+}
+.card .content .btnone 
+{
+    float: right;
+    margin-top: -16px;
+}
+.card .content .btntwo 
+{
+    float: left;
+    margin-top: -16px;
+}
+.card .content .btnone span ,
+.card .content .btntwo span
+{
+    color:#9F9F9F;
+    font-family: ClearSans;
+    font-size: 15px;
+}
+.card .content  i
+{
+    color: #141414;
+    font-size: 16px;
+}
+@media (max-width:767px) {
+    .card .content .btnone span, .card .content .btntwo span {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+/* end artical */

@@ -1,0 +1,531 @@
+body 
+{
+    background-color: #f2f2f2;
+    font-family: Almarai;
+}
+/*  start header */
+.header h1 
+{
+    font-size:50px;
+} 
+.box 
+{
+    font-size: 25px;
+    line-height: 1.6;
+}
+button 
+{
+    float:left;
+    color:#8F8F8F;
+    background-color:#ECECEC;
+    border:none;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 5px;
+    font-weight:bold;
+    margin-left: 3%;
+} 
+@media (max-width:767px){
+    .header h1 
+    {
+        font-size: 36px;
+    } 
+    .box 
+    {
+        font-size: 18px;
+        line-height: 2.4;
+        font-weight: bold;
+    }
+    button 
+    {
+        float: left;
+        color: #8F8F8F;
+        background-color: #ECECEC;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        padding: 5px;
+        font-weight: bold;
+        margin-left: 3%;
+        line-height: 1.65;
+    }
+}
+/*  end header */
+
+/* starT matches */
+.slider {
+    display: flex;
+}
+.slider .card{
+    flex: 1;
+    background: #fff;
+}
+.match-container 
+{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.spacial-span
+{
+    font-size: 22px;
+    line-height: 3.6;
+}
+.time-match 
+{
+    font-size: 20px;
+}
+@media (max-width:767px){
+    .time-match 
+    {
+        font-size: 16px;
+    }
+    .live 
+    {
+        width: 30% !important;
+        right: 33% !important;
+    }
+    .threethree 
+    {
+        font-size: 26px !important;
+        line-height: 3 !important;
+    }
+}
+@media only screen 
+    and (max-width : 250px)  {
+    .match-container 
+    {
+        padding-left:0%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 15px;
+        line-height: 4;
+    }
+    /* .live 
+    {
+        font-size: ;
+    } */
+    .time-match
+    {
+        font-size: 12px;
+    }
+    .players .img span {
+        font-size: 10px !important;
+    }
+    .slider3 {
+        margin-top: 45px !important;
+    }
+}
+@media only screen 
+    and (min-width : 300px) and  (max-width : 325px) {
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 18px;
+        line-height: 4.5;
+    }
+    .live div 
+    {
+        line-height: 0 !important;
+    }
+}
+@media only screen 
+    and (min-width : 200px) and  (max-width : 230px) {
+    .spacial-span
+    {
+        font-size: 14px;
+        line-height: 4;
+    }
+}
+@media only screen 
+    and (min-width : 250px) and  (max-width : 300px) {
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span
+    {
+        font-size: 14px;
+        line-height: 5.6 !important;
+    }
+    .live div
+    {
+        line-height: 0 !important;
+    }
+}
+@media only screen 
+    and (device-width : 320px) 
+    and (device-height : 568px) {
+    .match-container 
+    {
+        padding-left:6%;
+        padding-right:6%;
+    }
+    /* .spacial-span
+    {
+        font-size: 18px;
+        line-height: 3;
+    } */
+}
+@media only screen 
+    and (device-width : 360px) 
+    and (device-height : 640px) {
+    .match-container 
+    {
+        padding-left:10%;
+        padding-right:10%;
+    }
+}
+@media only screen 
+    and (device-width : 540px) 
+    and (device-height : 720px) {
+
+    .match-container 
+    {
+        padding-left:20%;
+        padding-right:20%;
+    }
+}
+@media only screen 
+    and (device-width : 250px) 
+    and (device-height : 626px) {
+
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .spacial-span {
+        font-size: 14px;
+        line-height: 4;
+    }
+}
+@media only screen 
+    and (device-width : 280px) {
+
+    .match-container 
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .live div
+    {
+        line-height: 0 !important;
+    }
+}
+/* end matches */
+
+/* start players */
+.players .card {
+    border-radius: 20px;
+}
+.players .img img 
+{
+    padding: 15% 15% 5% 15%;
+}
+.players .img div 
+{
+    font-family: Almarai;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .head h2 {
+        font-size: 20px;
+    }
+    .spical-h {
+        margin-right: 6% !important;
+    }
+    .players .card {
+        border-radius: 10px;
+    }
+    .players .img div {
+        font-family: Almarai;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .players .img img {
+        padding: 15% 10% 5% 10%;
+    }
+}
+@media only screen 
+    and (device-width : 768px) 
+    and (device-height : 1024px) {
+        
+    .players .img span {
+        margin-right: 18%;
+    }
+}
+@media only screen 
+    and (device-width : 540px) 
+    and (device-height : 720px) {
+        
+    .players .img span {
+        margin-right: 26%;
+    }
+}
+@media only screen 
+    and (device-width : 280px) 
+    and (device-height : 653px) {
+        
+    .players .img span {
+        margin-right: 28% !important;
+    }
+}
+/* end players */
+
+/* start section statistics */
+.widget {
+    background: #FFF;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px 0 rgb(0 54 87 / 14%);
+    margin-bottom: 15px;
+}
+.gray_bg {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 0 0 15px 15px;
+}
+.competitors_teams {
+    text-align: center;
+    font-family:Almarai;
+    color: #000;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+.competitors_teams img {
+    height: 35px;
+    width: 35px;
+}
+.competitors_teams span {
+    padding-top: 5px;
+    display: block;
+}
+.team_stats_container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.streagth .row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.streagth .col-xs-6 {
+    padding: 0;
+}
+.progressbar {
+    height: 40px;
+    vertical-align: middle;
+    animation-fill-mode: backwards;
+    padding: 5px 15px;
+    font-size: 21px;
+    color: #fff;
+}
+.stats_item {
+    padding: 5px 15px;
+    font-family:ArbFONTS-Al-Jazeera-Arabic-Bold;
+    color: #000;
+    font-size: 16px;
+}
+.stats_item {
+    text-align: center;
+}
+.stats_item b {
+    font-family: arial;
+    display: inline-block;
+    width: 25px;
+}
+.perfect 
+{
+    padding-right: 0px!important;
+    padding-left:0px!important;
+}
+@media screen and (max-width: 767px){
+    .row, .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin: 0!important;
+    }
+    .row-ahmed {
+        margin: 0 -10px!important;
+    }
+    .perfect 
+    {
+        padding-right: 10px!important;
+        padding-left:10px!important;
+    }
+    .paddingleftzero 
+    {
+        padding-left:0 !important;
+    }
+}
+@media screen and (max-width: 767px){
+    div[class^=col], div[class*=' col'] {
+        padding: 0 !important;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .row, .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin: 0!important;
+    }
+    .row-ahmed {
+        margin: 0 -10px!important;
+    }
+    .perfect 
+    {
+        padding-right: 10px!important;
+        padding-left:10px!important;
+    }
+    .paddingleftzero 
+    {
+        padding-left:0 !important;
+    }
+    div[class^=col], div[class*=' col'] {
+        padding: 0 !important;
+    }
+}
+
+/* *************************** */
+.timeline_box {
+    position: relative;
+    width: 100%;
+    display: table;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    direction: ltr;
+}
+.timeline_box:after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    height: 100%;
+    width: 2px;
+    background-color: #ddd;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 0;
+}
+.timeline_header {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.timeline_header img {
+    vertical-align: text-bottom;
+    height: 25px;
+    width: 25px;
+}
+.timeline_header span {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 15px;
+    font-family: arial;
+}
+.card_container {
+    display: table-row;
+    width: 100%;
+}
+.cards {
+    height: 31px;
+    width: calc(50% + 14px);
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin-top: 2px;
+    position: relative;
+    z-index: 2;
+    padding: 2px;
+}
+.right_item {
+    float: right;
+}
+.symbol {
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    width: 30px;
+}
+.cards .symbol {
+    display: inline-block;
+}
+.right_item .symbol, .right_item .player_name {
+    float: right;
+}
+.symbol img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.cards .player_name {
+    display: inline-block;
+    padding: 0 15px;
+}
+.player_name {
+    position: relative;
+}
+.cards .player_name a {
+    font-family:Almarai;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: -.4px;
+    color: #1e1e1f;
+    position: relative;
+    text-decoration: none;
+}
+.cards .number_circle {
+    height: 25px;
+    width: 25px;
+    background-color: #ddd;
+    text-align: center;
+    color: #000;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: arial;
+}
+.left_item {
+    border-left: 0 solid #ddd;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+.left_item .symbol, .left_item .player_name {
+    float: left;
+}
+.inout_names {
+    top: 0;
+}
+.inout_names a {
+    line-height: 12px!important;
+    display: block;
+}
+.inout_names br {
+    display: none;
+}
+.left_item .number_circle {
+    float: right;
+    position: relative;
+}
+.fill_green {
+    background-color: #0fc07f;
+}
+@media screen and (max-width: 767px){
+    .unique
+    {
+        margin-top: 30px;
+    }
+}
+/* End section statistics */
