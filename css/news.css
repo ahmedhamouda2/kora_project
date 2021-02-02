@@ -156,6 +156,9 @@ ul.breadcrumb li a:hover {
     .news h2 {
         font-size: 32px;
     }
+    .article h2 {
+        font-size: 20px;
+    }
     .timing .btnone span, .timing .btntwo span {
         font-size: 12px;
         font-weight: bold;
