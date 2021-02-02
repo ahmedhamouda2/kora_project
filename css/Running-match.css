@@ -4,15 +4,38 @@ body
     font-family: Almarai;
 }
 /*  start header */
-.header h1 
-{
-    font-size:50px;
-} 
+.special-container {background-color: #191f2b;border-radius: 0 0 20px 20px;}
+.header{font-family: clear_sans, sans-serif;}
+.header h1 {font-size:50px;font-weight: bold;color: #FFF;margin: 0;margin-top: 15px;}
+.icon-left {position:relative ;left:3%;}
+.icon-left i {float: left;color: #FFF;margin-top: -33px;} 
+.icon-right {position:relative ;right:2%;}
+.icon-right i {float: right;color: #FFF;margin-top: -33px;} 
 .box 
 {
     font-size: 25px;
     line-height: 1.6;
+    background-color:#FFF;
+    border-radius: 17px;
+    text-align: center;
+    height: 45px;
+    width: 22.5%;
+    margin-left: 2%;
+    top: 20px;
+    color:#898989;
 }
+.box .active {font-weight: bold;color: #000;}
+.clearfix {clear: both;}
+
+
+/* end header */
+
+
+.row {margin-right:0;}
+.row-privet {margin-right: -15px;}
+.head-special {margin-top: 50px !important;}
+.head {margin-top: 30px;}
+.head h2 {display: inline;margin-right:3%;font-weight: bold;}
 button 
 {
     float:left;
@@ -24,7 +47,12 @@ button
     padding: 5px;
     font-weight:bold;
     margin-left: 3%;
-} 
+}
+.owl-carousel {margin-top: 20px;}
+.card {border-radius: 20px;background-color: #fff;}
+.card .box-title {height: 45px;text-align: center;background: #191f2b;color: #FFF;line-height: 2.5;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;}
+.card .box-separator {background: #f2f2f2;height: 10px;}
+
 @media (max-width:767px){
     .header h1 
     {
@@ -43,13 +71,15 @@ button
         background-color: #ECECEC;
         border: none;
         border-radius: 15px;
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px;
         font-weight: bold;
         margin-left: 3%;
         line-height: 1.65;
     }
 }
+
+
 /*  end header */
 
 /* starT matches */
@@ -64,30 +94,43 @@ button
 {
     padding-left: 12%;
     padding-right: 12%;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #E71B26;
+    border-radius: 0 0 15px 15px;
 }
-.spacial-span
+.match-container .club-right {float: right;}
+.match-container .club-left {float: left;}
+
+.match-container .spacial-span
 {
     font-size: 22px;
     line-height: 3.6;
+    font-weight: 400;
+    font-family: Almarai;
 }
-.time-match 
-{
-    font-size: 20px;
-}
+.marginr {margin-right: 8%;}
+.match-container .club-right img {width:24px;height:26px;float: left;margin-left: -15%;margin-top: 20px;}
+.match-container .club-left img {width:24px;height:26px;float: right;margin-right:-12%;margin-top: 20px;}
+.score-match {display: inline-block;font-size: 30px;line-height: 2.5;font-weight: bold;}
+.live {background-color: #e71b26;color: #FFF;border-radius: 20px;width: 20%;height: 25px;right: 36%;position: relative;margin-top: -10px;text-align: center;line-height: 0.6;font-size: 13px;}
 @media (max-width:767px){
-    .time-match 
+    .match-container .spacial-span
+        {
+            font-size: 18px;
+            line-height: 3.8;
+        }
+    .score-match
     {
-        font-size: 16px;
+        font-size: 20px !important;
+        line-height: 3.6 !important;
+        margin-right: 6%;
     }
     .live 
     {
         width: 30% !important;
         right: 33% !important;
-    }
-    .threethree 
-    {
-        font-size: 26px !important;
-        line-height: 3 !important;
+        line-height: 1.5!important;
     }
 }
 @media only screen 
@@ -97,7 +140,7 @@ button
         padding-left:0%;
         padding-right:3%;
     }
-    .spacial-span
+    .match-container .spacial-span
     {
         font-size: 15px;
         line-height: 4;
@@ -124,7 +167,7 @@ button
         padding-left:3%;
         padding-right:3%;
     }
-    .spacial-span
+    .match-container .spacial-span
     {
         font-size: 18px;
         line-height: 4.5;
@@ -136,7 +179,7 @@ button
 }
 @media only screen 
     and (min-width : 200px) and  (max-width : 230px) {
-    .spacial-span
+    .match-container .spacial-span
     {
         font-size: 14px;
         line-height: 4;
@@ -149,7 +192,7 @@ button
         padding-left:3%;
         padding-right:3%;
     }
-    .spacial-span
+    .match-container .spacial-span
     {
         font-size: 14px;
         line-height: 5.6 !important;
@@ -201,7 +244,7 @@ button
         padding-left:3%;
         padding-right:3%;
     }
-    .spacial-span {
+    .match-container .spacial-span {
         font-size: 14px;
         line-height: 4;
     }
@@ -214,9 +257,9 @@ button
         padding-left:3%;
         padding-right:3%;
     }
-    .live div
+    .live
     {
-        line-height: 0 !important;
+        line-height: 0.5 !important;
     }
 }
 /* end matches */
@@ -284,6 +327,11 @@ button
 /* end players */
 
 /* start section statistics */
+.statistics {margin-top: 40px;}
+.box-title {height: 45px;text-align: center;background: #191f2b;color: #FFF;line-height: 2.5;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;}
+.box-separator {background: #f2f2f2;height: 10px;}
+
+
 .widget {
     background: #FFF;
     border-radius: 0 0 15px 15px;

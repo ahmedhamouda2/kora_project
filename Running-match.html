@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Koora page</title>
         <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap">
         <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -12,64 +14,60 @@
     </head>
     <body>
         <!-- start header -->
-        <section class="header" style="font-family: clear_sans, sans-serif;">
-            <div class="container" style="background-color: #191f2b;border-radius: 0 0 20px 20px;">
-                <div class="row">
-                    <h1 class="text-center" style="font-weight: bold;color: #FFF;margin: 0;margin-top: 15px;">KORA</h1>
-                    <div style="position:relative ;left:3%;">
-                        <i class="far fa-calendar-alt fa-2x fa-fw" style="float: left;color: #FFF;margin-top: -33px;"></i>
+        <section class="header">
+            <div class="container special-container">
+                    <h1 class="text-center">KORA</h1>
+                    <div class="icon-left">
+                        <i class="far fa-calendar-alt fa-2x fa-fw"></i>
                     </div>
-                    <div  style="position:relative ;right:2%;">
-                        <i class="fas fa-ellipsis-v fa-2x fa-fw" style="color: #FFF;float: right;margin-top: -33px;"></i>
+                    <div class="icon-right">
+                        <i class="fas fa-ellipsis-v fa-2x fa-fw"></i>
                     </div>
                     <div class="boxs">
-                        <div class="box col-xs-3" style="background-color:#FFF; border-radius: 17px;text-align: center;height: 45px;width: 22.5%;margin-left: 2%;top: 20px;color:#898989;;"><span> امس </span></div>
-                        <div class="box col-xs-3" style="background-color:#FFF; border-radius: 17px;text-align: center;height: 45px;width: 22.5%;margin-left: 2%;top: 20px;color:#898989;;"><span>غدا</span></div>
-                        <div class="box col-xs-3" style="background-color:#FFF; border-radius: 17px;text-align: center;height: 45px;width: 22.5%;margin-left: 2%;top: 20px;color:#898989;;"><span>اليوم</span></div>
-                        <div class="box col-xs-3" style="background-color:#FFF; border-radius: 17px;text-align: center;height: 45px;width: 22.5%;margin-left: 2%;top: 20px;font-weight: bold;;"><span>الآن</span></div>
+                        <div class="box col-xs-3"> امس</div>
+                        <div class="box col-xs-3">غدا</div>
+                        <div class="box col-xs-3">اليوم</div>
+                        <div class="box col-xs-3"><span class="active">الآن</span></div>
                     </div>
-                    <div class="clearfix" style="clear: both;"></div>
-                </div>
+                    <div class="clearfix"></div>
             </div>
         </section>
         <!-- end header -->
 
         <!-- start section matches -->
         <section class="matches">
-            <div class="container" style="padding-right:10px;padding-left:8px;"> <!-- style="padding-right:15px;padding-left:0" -->
-                <div class="row"> <!-- style="margin-right:-5px;"-->
+            <div class="container"> 
+                <div class="row"> 
 
-                    <div class="head" style="margin-top: 50px;">
-                        <h2 style="display: inline;margin-right:3%;font-weight: bold;"> برشلونة </h2>
+                    <div class="head head-special">
+                        <h2> برشلونة </h2>
                         <button>مشاهدة الكل</button>
                     </div>
 
-                    <div class="slider owl-carousel" style="margin-top: 20px;">
+                    <div class="slider owl-carousel">
                         <div class="main">
-                            <div class="card" style="border-radius:15px">
-                                <div style="height: 55px;text-align: center;background: #191f2b;color: #FFF;line-height:3;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;">
+                            <div class="card">
+                                <div class="box-title">
                                     المباراة الجارية
                                 </div>
 
-                                <div style="background: #f2f2f2;height: 10px;"></div>
+                                <div class="box-separator"></div>
 
-                                <div  class="match-container" style="height: 80px;text-align: center;border: 1px solid #E71B26;border-radius: 0 0 15px 15px;">
-                                    <div style="float: right;">
-                                        <span  class="spacial-span" style="font-weight: 400;font-family: Almarai;">برشلونة</span>
-                                        <img src="img/running match/barca.png" alt="" style="width:30px;height:34px;float: left;margin-left: -15%;margin-top: 20px;">
+                                <div  class="match-container">
+                                    <div class="club-right">
+                                        <span  class="spacial-span">برشلونة</span>
+                                        <img src="img/running match/barca.png" alt="">
                                     </div>
                                     
-                                    <div class="threethree" style="display: inline-block;font-size: 30px;line-height: 2.5;font-weight: bold;"> 3 - 3 </div>
+                                    <div class="score-match"> 3 - 3 </div>
 
-                                    <div style="float: left;">
-                                        <img src="img/running match/real.png" alt="" style="width:30px;height:34px;float: right;margin-right:-12%;margin-top: 20px;">
-                                        <span class="spacial-span" style="font-weight: 400;font-family: Almarai;margin-right: 8%;">ريال مدريد</span>
+                                    <div class="club-left marginr">
+                                        <img src="img/running match/real.png" alt="">
+                                        <span class="spacial-span">ريال مدريد</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="live" style="background-color: #e71b26;color: #FFF;border-radius: 20px;width: 20%;height: 25px;right: 39%;position: relative;margin-top: -10px;">
-                                <div style="text-align: center;line-height: 0.6;font-size: 13px;"> مباشر 72'</div>
-                            </div>
+                            <div class="live"> مباشر 72' </div>
                         </div>
 
                     </div>
@@ -80,43 +78,43 @@
 
         <!-- Start section players-barca -->
         <section class="players">
-            <div class="container paddingleftzero" style="padding-right:15px;">
-                <div class="row"> <!-- style="margin-right:0;"--> 
-                    <div class="head" style="margin-top: 30px;">
-                        <h2 style="margin: 0;display: inline;margin-right:2%;font-weight: bold;">  تشكيلة برشلونة </h2>
+            <div class="container paddingleftzero"> <!--  style="padding-right:15px;"-->
+                <div class="row">
+                    <div class="head">
+                        <h2>  تشكيلة برشلونة </h2>
                         <button>مشاهدة الكل</button>
                     </div>
 
-                    <div class="slider1 owl-carousel" style="margin-top: 20px;">
-                        <div class="card" style="background-color: #FFF;">
+                    <div class="slider1 owl-carousel">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/01.png" alt="">
                                 <div>ليونيل ميسي</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/02.png" alt="">
                                 <div>جوري البا</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/01.png" alt="">
                                 <div>ليونيل ميسي</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/02.png" alt="">
                                 <div>جوري البا</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/01.png" alt="">
                                 <div>ليونيل ميسي</div>
@@ -132,66 +130,62 @@
 
         <!-- Start section players-real -->
         <section class="players">
-            <div class="container paddingleftzero" style="padding-right:15px;">
-                <div class="row"> <!-- style="margin-right:0;"--> 
-                    <div class="head" style="margin-top: 30px;">
-                        <h2 style="margin: 0;display: inline;margin-right:2%;font-weight: bold;">  تشكيلة ريال مدريد </h2>
+            <div class="container paddingleftzero">  <!--  style="padding-right:15px;"-->
+                <div class="row"> 
+                    <div class="head">
+                        <h2>  تشكيلة ريال مدريد </h2>
                         <button>مشاهدة الكل</button>
                     </div>
 
-                    <div class="slider1 owl-carousel" style="margin-top: 20px;">
-                        <div class="card" style="background-color: #FFF;">
+                    <div class="slider1 owl-carousel">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/03.png" alt="">
                                 <div> دانييل كارفاخال</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/04.png" alt="">
                                 <div>تيبو كورتوا</div>
                             </div>
                         </div>
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/03.png" alt="">
                                 <div> دانييل كارفاخال</div>
                             </div>
                         </div>
 
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/04.png" alt="">
                                 <div>تيبو كورتوا</div>
                             </div>
                         </div>
-                        <div class="card" style="background-color: #FFF;">
+                        <div class="card">
                             <div class="img">
                                 <img src="img/running match/03.png" alt="">
                                 <div> دانييل كارفاخال</div>
                             </div>
                         </div>
 
-
-                        
-                        
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- End section players-real -->
 
         <!-- start section statistics -->
-        <section style="margin-top: 40px;">
+        <section class="statistics">
             <div class="container perfect">
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <div style="height: 45px;text-align: center;background: #191f2b;color: #FFF;line-height: 2.5;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;">
+                        <div class="box-title">
                             إحصائيات الفرق
                         </div>
-                        <div style="background: #f2f2f2;height: 10px;"></div>
+                        <div class="box-separator"></div>
                         <div class="stats">
                             <div class="widget">
                                 <!-- background: #FFF -->
@@ -252,17 +246,15 @@
                     </div>
 
                     <div class="col-md-6 col-xs-12">
-                        <div style="height: 45px;text-align: center;background: #191f2b;color: #FFF;line-height: 2.5;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;">
+                        <div class="box-title">
                             التفاصيل
                         </div>
-                        <div style="background: #f2f2f2;height: 10px;"></div>
+                        <div class="box-separator"></div>
                         <div class="stats">
                             <div class="widget">
                                 <div class="gray_bg">
                                     <div class="shadow_box">
                                         <div class="timeline_box">
-                                            <!-- <a class="awayTeam" href="https://kora.com/spain/barcelona/">
-                                            </a> -->
                                             <div class="timeline_header ">
                                                 <div class="team_goals">
                                                     <img src="https://cdn-us.kora.com/static/teams/eefe27136b736b49b0b1a75a84833d96_48x48_fixed.png" title="برشلونة">
@@ -474,13 +466,10 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
-    
-
         <!-- End section statistics -->
 
         

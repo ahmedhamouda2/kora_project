@@ -4,15 +4,34 @@ body
     font-family: Almarai;
 }
 /*  start header */
-.header h1 
-{
-    font-size:50px;
-} 
+.special-container {background-color: #191f2b;border-radius: 0 0 20px 20px;}
+.header{font-family: clear_sans, sans-serif;}
+.header h1 {font-size:50px;font-weight: bold;color: #FFF;margin: 0;margin-top: 15px;}
+.icon-left {position:relative ;left:3%;}
+.icon-left i {float: left;color: #FFF;margin-top: -33px;} 
+.icon-right {position:relative ;right:2%;}
+.icon-right i {float: right;color: #FFF;margin-top: -33px;} 
 .box 
 {
     font-size: 25px;
     line-height: 1.6;
+    background-color:#FFF;
+    border-radius: 17px;
+    text-align: center;
+    height: 45px;
+    width: 22.5%;
+    margin-left: 2%;
+    top: 20px;
+    color:#898989;
 }
+.box .active {font-weight: bold;color: #000;}
+.clearfix {clear: both;}
+/* end header */
+.row {margin-right:0;}
+.row-privet {margin-right: -15px;}
+.head-special {margin-top: 50px !important;}
+.head {margin-top: 30px;}
+.head h2 {display: inline;margin-right:3%;font-weight: bold;}
 button 
 {
     float:left;
@@ -25,6 +44,8 @@ button
     font-weight:bold;
     margin-left: 3%;
 } 
+.owl-carousel {margin-top: 20px;}
+.card {border-radius: 20px;background-color: #fff;}
 @media (max-width:767px){
     .header h1 
     {
@@ -43,7 +64,7 @@ button
         background-color: #ECECEC;
         border: none;
         border-radius: 15px;
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px;
         font-weight: bold;
         margin-left: 3%;
