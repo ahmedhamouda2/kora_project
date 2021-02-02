@@ -169,7 +169,7 @@ button
     }
     .match-container .spacial-span
     {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 4.5;
     }
     .live div 
@@ -275,7 +275,7 @@ button
 .players .img div 
 {
     font-family: Almarai;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
 }
@@ -292,13 +292,19 @@ button
     }
     .players .img div {
         font-family: Almarai;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: bold;
         text-align: center;
     }
     .players .img img {
         padding: 15% 10% 5% 10%;
     }
+}
+@media only screen 
+    and (device-width : 280px) 
+    and (device-height : 653px) {
+    .head h2 {font-size: 18px !important;}
+    .cards .player_name a {font-size: 10px!important;}
 }
 @media only screen 
     and (device-width : 768px) 

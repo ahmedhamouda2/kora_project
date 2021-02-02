@@ -89,6 +89,11 @@ button
     .img-arc img {margin-top: -1%;}
 }
 @media only screen 
+    and (device-width : 280px) 
+    and (device-height : 653px) {
+    .head h2 {font-size: 18px !important;}
+}
+@media only screen 
     and (device-width : 540px) 
     and (device-height : 720px) 
     and (-webkit-device-pixel-ratio :2)
