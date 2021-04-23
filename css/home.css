@@ -4,13 +4,13 @@ body
     font-family: Almarai ;
 }
 /* start header */
-.special-container {background-color: #191f2b;border-radius: 0 0 20px 20px;}
+.special-container {background-color: #191f2b;color: #FFF;border-radius: 0 0 20px 20px;}
 .header{font-family: clear_sans, sans-serif;}
-.header h1 {font-size:50px;font-weight: bold;color: #FFF;margin: 0;margin-top: 15px;}
+.header h1 {font-size:50px;font-weight: bold;margin: 0;margin-top: 15px;}
 .icon-left {position:relative ;left:3%;}
-.icon-left i {float: left;color: #FFF;margin-top: -33px;} 
+.icon-left i {float: left;margin-top: -33px;} 
 .icon-right {position:relative ;right:2%;}
-.icon-right i {float: right;color: #FFF;margin-top: -33px;} 
+.icon-right i {float: right;margin-top: -33px;} 
 .box 
 {
     font-size: 25px;
