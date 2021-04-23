@@ -104,6 +104,7 @@ button
 /* End matches */
 
 .slider{max-width: 1155px;display: flex;}
+.slider a {color: #000;text-decoration: none;}
 .slider .card {flex: 1;margin: 0 10px;background: #fff;}
 
 /* start artical */
