@@ -146,7 +146,13 @@ button
 
 /* start clubs */
 .slider4 {background-color: #FFF;border-radius: 0 20px 20px 0;}
+.slider4 .img {width: 70%}
+.reset-image {width: 60% !important}
 @media (max-width:767px) {
     .slider4 {background-color: #FFF;border-radius: 0 10px 10px 0; }
 }
+@media (min-width:767px) {
+    .slider4 .img {padding:5px;}
+}
+
 /* end clubs */
