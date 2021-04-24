@@ -110,7 +110,7 @@ button
 .article .slider .card .img img {height: 100%;width: 100%;object-fit: cover;border-radius:10px}
 .article .slider .card {height: 400px;}
 .article .slider .card .img {height: 262px}
-.thumbnail {margin-bottom: 10px;}
+.thumbnail {margin-bottom: 0;padding: 2px;}
 .thumbnail img {border-radius: 3px;}
 .article .card .content {padding: 15px;}
 .slider .card .content {padding: 10px 20px;}
