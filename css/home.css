@@ -110,6 +110,8 @@ button
 .article .slider .card .img img {height: 100%;width: 100%;object-fit: cover;border-radius:10px}
 .article .slider .card {height: 400px;}
 .article .slider .card .img {height: 262px}
+.thumbnail {margin-bottom: 10px;}
+.thumbnail img {border-radius: 3px;}
 .article .card .content {padding: 15px;}
 .slider .card .content {padding: 10px 20px;}
 .card .content .title{font-size: 22px;font-weight: 600;color: #1e2022;font-family: clear_sans;}
