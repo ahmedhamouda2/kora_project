@@ -57,10 +57,11 @@ button
 .cont-img img {position: relative;width: 26% !important;}
 .img-left img {float: left;left: 5%;}
 .img-right img {float: right;right:4%;}
-.img-rma img {margin-top: 8%;}
+.img-rma img , .img-atm img {margin-top: 8%;}
 .img-bar img {margin-top: 2%;} 
 .img-che img {margin-top: 13%;}          
 .img-arc img {margin-top: 2%;}
+
 .abb {position: relative;font-weight: bold;font-family: tahoma;}
 .abb-ram {left: 17%;top: 75%;}
 .abb-bar {right: 49%;top:57%;}
