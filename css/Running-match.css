@@ -26,10 +26,7 @@ body
 }
 .box .active {font-weight: bold;color: #000;}
 .clearfix {clear: both;}
-
-
 /* end header */
-
 
 .row {margin-right:0;}
 .row-privet {margin-right: -15px;}
@@ -78,8 +75,6 @@ button
         line-height: 1.65;
     }
 }
-
-
 /*  end header */
 
 /* starT matches */
@@ -101,7 +96,6 @@ button
 }
 .match-container .club-right {float: right;}
 .match-container .club-left {float: left;}
-
 .match-container .spacial-span
 {
     font-size: 22px;
@@ -116,10 +110,10 @@ button
 .live {background-color: #e71b26;color: #FFF;border-radius: 20px;width: 20%;height: 25px;right: 36%;position: relative;margin-top: -10px;text-align: center;line-height: 0.6;font-size: 13px;}
 @media (max-width:767px){
     .match-container .spacial-span
-        {
-            font-size: 18px;
-            line-height: 3.8;
-        }
+    {
+        font-size: 18px;
+        line-height: 3.8;
+    }
     .score-match
     {
         font-size: 20px !important;
@@ -133,8 +127,7 @@ button
         line-height: 1.5!important;
     }
 }
-@media only screen 
-    and (max-width : 250px)  {
+@media only screen and (max-width : 250px)  {
     .match-container 
     {
         padding-left:0%;
@@ -145,10 +138,6 @@ button
         font-size: 15px;
         line-height: 4;
     }
-    /* .live 
-    {
-        font-size: ;
-    } */
     .time-match
     {
         font-size: 12px;
@@ -160,8 +149,7 @@ button
         margin-top: 45px !important;
     }
 }
-@media only screen 
-    and (min-width : 300px) and  (max-width : 325px) {
+@media only screen and (min-width : 300px) and  (max-width : 325px) {
     .match-container 
     {
         padding-left:3%;
@@ -177,16 +165,14 @@ button
         line-height: 0 !important;
     }
 }
-@media only screen 
-    and (min-width : 200px) and  (max-width : 230px) {
+@media only screen and (min-width : 200px) and  (max-width : 230px) {
     .match-container .spacial-span
     {
         font-size: 14px;
         line-height: 4;
     }
 }
-@media only screen 
-    and (min-width : 250px) and  (max-width : 300px) {
+@media only screen and (min-width : 250px) and  (max-width : 300px) {
     .match-container 
     {
         padding-left:3%;
@@ -202,32 +188,21 @@ button
         line-height: 0 !important;
     }
 }
-@media only screen 
-    and (device-width : 320px) 
-    and (device-height : 568px) {
+@media only screen and (device-width : 320px) and (device-height : 568px) {
     .match-container 
     {
         padding-left:6%;
         padding-right:6%;
     }
-    /* .spacial-span
-    {
-        font-size: 18px;
-        line-height: 3;
-    } */
 }
-@media only screen 
-    and (device-width : 360px) 
-    and (device-height : 640px) {
+@media only screen and (device-width : 360px) and (device-height : 640px) {
     .match-container 
     {
         padding-left:10%;
         padding-right:10%;
     }
 }
-@media only screen 
-    and (device-width : 540px) 
-    and (device-height : 720px) {
+@media only screen and (device-width : 540px) and (device-height : 720px) {
 
     .match-container 
     {
@@ -235,10 +210,7 @@ button
         padding-right:20%;
     }
 }
-@media only screen 
-    and (device-width : 250px) 
-    and (device-height : 626px) {
-
+@media only screen and (device-width : 250px) and (device-height : 626px) {
     .match-container 
     {
         padding-left:3%;
@@ -249,9 +221,7 @@ button
         line-height: 4;
     }
 }
-@media only screen 
-    and (device-width : 280px) {
-
+@media only screen and (device-width : 280px) {
     .match-container 
     {
         padding-left:3%;
@@ -279,7 +249,6 @@ button
     font-weight: 400;
     text-align: center;
 }
-
 @media (max-width: 767px){
     .head h2 {
         font-size: 20px;
@@ -336,8 +305,6 @@ button
 .statistics {margin-top: 40px;}
 .box-title {height: 45px;text-align: center;background: #191f2b;color: #FFF;line-height: 2.5;font-size: 20px;font-family: Almarai;font-weight: bold;border-radius: 15px 15px 0 0;}
 .box-separator {background: #f2f2f2;height: 10px;}
-
-
 .widget {
     background: #FFF;
     border-radius: 0 0 15px 15px;
@@ -478,8 +445,8 @@ button
 }
 .timeline_header img {
     vertical-align: text-bottom;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 .timeline_header span {
     font-weight: 700;
