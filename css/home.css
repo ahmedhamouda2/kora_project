@@ -51,6 +51,7 @@ button
     outline: none;
 } 
 .owl-carousel {margin-top: 20px;}
+.owl-carousel .owl-stage-outer {padding: 10px;}
 .card {border-radius: 20px;background-color: #fff;}
 .card-height {height: 120px;}
 .card-border {border:1px solid #e71b26;}
