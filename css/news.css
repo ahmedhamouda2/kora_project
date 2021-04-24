@@ -40,7 +40,7 @@ button
     border:none;
     border-radius: 15px;
     font-size: 18px;
-    padding: 5px;
+    padding: 10px;
     font-weight:bold;
     margin-left: 3%;
 } 
@@ -59,15 +59,8 @@ button
     }
     button 
     {
-        float: left;
-        color: #8F8F8F;
-        background-color: #ECECEC;
-        border: none;
-        border-radius: 15px;
         font-size: 14px;
         padding: 5px;
-        font-weight: bold;
-        margin-left: 3%;
         line-height: 1.65;
     }
 }
